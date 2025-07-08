@@ -6,14 +6,42 @@
   font-variation-settings: "wdth" 100;
 }
 
+/* Shared style */
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 18px 35px;
+}
 /* nav style */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
 }
 .nav-title {
   font-size: 45px;
   font-weight: 800;
 }
-.text-primary {
-  color: #fd6e0a;
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
 }
